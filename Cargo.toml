@@ -1,5 +1,5 @@
 [package]
-name = "StandUp"
+name = "stand-up"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 notify-rust = "4.8.0"
+
+[dependencies.tokio]
+version = "1.28.2"
+features = ["rt", "rt-multi-thread", "macros", "time"]
